@@ -1,0 +1,30 @@
+
+<div class="jumbotron">
+<%= form_with(model: bucket, local: true) do |form| %>
+  <% if bucket.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(bucket.errors.count, "error") %> prohibited this bucket from being saved:</h2>
+
+      <ul>
+      <% bucket.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group mt-5">
+    <%= form.label :list_item %>
+    <%= form.text_field :list_item, id: :bucket_list_item, class: 'form-control' %>
+  </div>
+
+
+    <%= form.label :list_description %>
+<%= form.text_field :list_description, id: :bucket_list_description, class: 'form-control mb-5' %>
+
+
+  <div class="btn btn-warning">
+    <%= form.submit %>
+  </div>
+<% end %>
+</div>

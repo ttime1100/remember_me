@@ -1,0 +1,49 @@
+<div class="container">
+<p class="float-right" id="notice"><%= notice %></p>
+</div>
+
+<div class="jumbotron w-25 bg-secondary">
+<h1 class="text-white"><%= current_user.name %></h1>
+</div>
+
+
+    <div class="container mt-5 w-50">
+    <div class="row d-block">
+
+
+    <div class="col">
+      <div class="jumbotron">
+    <h2 class="text-center">Bucket List</h2>
+    <br/>
+    <p class="text-center"><%= link_to 'Enter', buckets_path, class: 'btn btn-outline-primary' %></p>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="jumbotron">
+    <h2 class="text-center">Romance</h2>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="jumbotron">
+    <h2 class="text-center">Adventures</h2>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="jumbotron">
+    <h2 class="text-center">Memoirs</h2>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+
+
+      <!--  <%= link_to 'Show', profiles_path, class: 'btn btn-outline-primary' %>
+        <%= link_to 'Destroy', profiles_path, method: :delete, data: { confirm: 'Are you sure?' } %>
+-->

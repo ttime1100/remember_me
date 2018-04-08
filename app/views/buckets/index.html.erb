@@ -1,0 +1,23 @@
+<p class="display-3 animated bounce infinite" id="notice"><%= notice %></p>
+
+<div class="jumbotron jumbotron-fluid">
+<h1 class="display-4 text-center">Bucket List</h1>
+</div>
+
+<div class="container text-center mt-5 mb-5">
+<%= link_to 'New Bucket', new_bucket_path, class: 'btn btn-warning animated bounce infinite' %>
+<%= link_to 'Home', profiles_path, class: 'btn btn-primary' %>
+</div>
+
+
+<div class= "jumbotron jumbotron-fluid w-50 mx-auto">
+  <div class="container text-center">
+    <% @buckets.each do |bucket| %>
+      <h1 class="display-4"><%= bucket.list_item %><h1>
+        <h3><%= bucket.list_description %><h3>
+        <%= link_to 'Show', bucket, class: 'btn btn-warning' %>
+        <%= link_to 'Edit', edit_bucket_path(bucket), class: 'btn btn-warning' %>
+        <%= link_to 'Destroy', bucket, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-warning' %>
+        <% end %>
+</div>
+</div>

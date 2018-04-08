@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container text-center">
+
+<div class="jumbotron bg-warning">
+
+  <h1 class="display-4"><%= @bucket.list_item %><h1>
+
+
+
+  <strong class="display-4">The Plan:</strong>
+<h3 class="display-2"><%= @bucket.list_description %><h3>
+</div>
+
+<%= link_to 'Edit', edit_bucket_path(@bucket), class:'btn btn-primary' %> |
+<%= link_to 'Back', buckets_path, class:'btn btn-primary' %>
+
+</div>
