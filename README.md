@@ -5,7 +5,7 @@ Remember Me
 A platform where users can store valuable information about there adventures in life.
 Instead of a place cluttered with fake users who take your images and information and exploits it. Remember Me is a safe place to store memories, adventures and also future plans.
 
-User Stories:
+User Stories:<br>
 1.) A user will be able to sign-up using there google accounts for identity<br>
 2.) They will have enter there preset profile page<br>
 3.) The profile page has options for users to select and use that function of the section<br>
@@ -14,6 +14,12 @@ User Stories:
 MVP:<br>
 Models<br>
 <img src="screenshots/IMG_20180409_092640_107.jpg" height="250px" width="250px"/>
+<br>
+<img src="screenshots/IMG_20180409_092647_443.jpg" height="250px" width="250px"/>
+<br>
+<img src="screenshots/IMG_20180409_092653_239.jpg" height="250px" width="250px"/>
+<br>
+
 
 Things you may want to cover:
 
