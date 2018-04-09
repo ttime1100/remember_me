@@ -12,7 +12,8 @@ User Stories:
 4.) Options are post, upload images, save locations
 
 MVP:
-<img src="screenshots/IMG_20180409_092640_107.jpg"/> 
+Models:
+<img src="screenshots/IMG_20180409_092640_107.jpg" height="250px" width="250px"/> 
 
 Things you may want to cover:
 
