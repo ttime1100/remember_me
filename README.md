@@ -12,7 +12,7 @@ User Stories:
 4.) Options are post, upload images, save locations
 
 MVP:
-<img href="screenshots/IMG_20180409_092640_107.jpg"/> 
+<img src="screenshots/IMG_20180409_092640_107.jpg"/> 
 
 Things you may want to cover:
 
