@@ -32,6 +32,11 @@
                   <%= link_to  "Sign In", "/auth/google_oauth2", id: "sign_in", class: 'nav-link' %>
                 <% end %>
               </p>
+              <p class="nav-item">
+                <% if current_user %>
+                  <%= link_to  "Profile", profiles_path, id: "sign_in", class: 'nav-link' %>
+                <% end %>
+              </p>
 
             <form class="form-inline mt-2 mt-md-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
