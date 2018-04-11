@@ -38,11 +38,6 @@
                 <% end %>
               </p>
 
-            <form class="form-inline mt-2 mt-md-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-
             <% if current_user %>
               <p class="float-right">Hello, <strong><%= current_user.name %></strong>!
             <%= link_to "Sign out", signout_path, id: "sign_out", class: 'btn btn-outline-primary  float-right ml-2' %>
